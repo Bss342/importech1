@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    height: 100vh;
+    background-color: #d9d9d9;
+    color: #fff;
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color:#107acc;
+    padding: 0px 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+header{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 19px;
+}
+.dropdown-menu{
+    background-color: #107acc;
+    font-size: 19px;
+}
+.dropdown-menu a{
+    color: #fff;
+}
+.navbar{
+    height: 25%;
+    display: flex;
+    background-color: #107acc;
+}
+
+.logo-inicio{
+    margin-right: 3%;
+    border-radius: 50px;
+}
